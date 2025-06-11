@@ -1,0 +1,26 @@
+C:\Users\User>cd C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor>git clone https://github.com/erikrs92/storeproject.git -b develop
+Cloning into 'storeproject'...
+remote: Enumerating objects: 45, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 45 (delta 4), reused 41 (delta 4), pack-reused 0 (from 0)
+Receiving objects: 100% (45/45), 13.38 KiB | 198.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor> cd storeproject/
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git branch
+* develop
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git checkout -b feature/pablocfr-semana4
+Switched to a new branch 'feature/pablocfr-semana4'
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git branch
+  develop
+* feature/pablocfr-semana4
+
