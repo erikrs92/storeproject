@@ -1,3 +1,5 @@
+C:\Users\User>cd C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor
+
 C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor>git clone https://github.com/erikrs92/storeproject.git -b develop
 Cloning into 'storeproject'...
 remote: Enumerating objects: 45, done.
@@ -57,5 +59,53 @@ remote:      https://github.com/erikrs92/storeproject/pull/new/feature/pablocfr-
 remote:
 To https://github.com/erikrs92/storeproject.git
  * [new branch]      feature/pablocfr-semana4 -> feature/pablocfr-semana4
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git checkout feature/pablocfr-semana4
+M       prueba.txt
+Already on 'feature/pablocfr-semana4'
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git fetch origin
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 4), reused 3 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 3.21 KiB | 164.00 KiB/s, done.
+From https://github.com/erikrs92/storeproject
+   784ab80..797fb72  develop    -> origin/develop
+ * [new branch]      feature/Jeff_Smith_documentacion -> origin/feature/Jeff_Smith_documentacion
+   75b5db6..3368ea6  feature/i20112004-Semana4 -> origin/feature/i20112004-Semana4
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git merge origin/develop
+Merge made by the 'ort' strategy.
+ .gitignore | 90 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md  | 24 +++++++++++++++++
+ 2 files changed, 114 insertions(+)
+ create mode 100644 .gitignore
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git add .
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git commit -m "Subiendo cambios de develop"
+[feature/pablocfr-semana4 6c62b66] Subiendo cambios de develop
+ 1 file changed, 37 insertions(+), 2 deletions(-)
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git push origin feature/pablocfr-semana4
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.46 KiB | 1.46 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/erikrs92/storeproject.git
+   645d7d1..6c62b66  feature/pablocfr-semana4 -> feature/pablocfr-semana4
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git checkout feature/pablocfr-semana4
+Already on 'feature/pablocfr-semana4'
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git fetch origin
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git merge origin/develop
+Already up to date.
 
 C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>
