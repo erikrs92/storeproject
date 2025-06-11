@@ -1,4 +1,8 @@
 # storeproject
+Store Project
+V1
+
+=======
 
 Proyecto de ejemplo para una tienda utilizando Java, Spring Boot y Maven.
 
