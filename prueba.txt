@@ -1,5 +1,3 @@
-C:\Users\User>cd C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor
-
 C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor>git clone https://github.com/erikrs92/storeproject.git -b develop
 Cloning into 'storeproject'...
 remote: Enumerating objects: 45, done.
@@ -24,3 +22,40 @@ C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profes
   develop
 * feature/pablocfr-semana4
 
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git status
+On branch feature/pablocfr-semana4
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prueba.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git add .
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git commit -m "Probando"
+[feature/pablocfr-semana4 645d7d1] Probando
+ 1 file changed, 26 insertions(+)
+ create mode 100644 prueba.txt
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git push origin feature/pablocfr-semana4
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/erikrs92/storeproject.git/'
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>git push origin feature/pablocfr-semana4
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 698 bytes | 698.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature/pablocfr-semana4' on GitHub by visiting:
+remote:      https://github.com/erikrs92/storeproject/pull/new/feature/pablocfr-semana4
+remote:
+To https://github.com/erikrs92/storeproject.git
+ * [new branch]      feature/pablocfr-semana4 -> feature/pablocfr-semana4
+
+C:\Users\User\Documents\4TO CICLO\Lenguaje Programacion 2\Spring Boot\Git_Profesor\storeproject>
