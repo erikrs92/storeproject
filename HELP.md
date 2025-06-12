@@ -1,29 +1,29 @@
-# Getting Started
+# Comenzando
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Documentación de referencia
+Para más información, por favor considera las siguientes secciones:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.0/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.0/maven-plugin/build-image.html)
+* [Documentación oficial de Apache Maven](https://maven.apache.org/guides/index.html)
+* [Guía de referencia del plugin Maven de Spring Boot](https://docs.spring.io/spring-boot/3.5.0/maven-plugin)
+* [Crear una imagen OCI](https://docs.spring.io/spring-boot/3.5.0/maven-plugin/build-image.html)
 * [Spring Web](https://docs.spring.io/spring-boot/3.5.0/reference/web/servlet.html)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/3.5.0/reference/data/sql.html#data.sql.jpa-and-spring-data)
 * [Thymeleaf](https://docs.spring.io/spring-boot/3.5.0/reference/web/servlet.html#web.servlet.spring-mvc.template-engines)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+### Guías
+Las siguientes guías ilustran cómo usar algunas características de manera concreta:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
+* [Construyendo un servicio web RESTful](https://spring.io/guides/gs/rest-service/)
+* [Sirviendo contenido web con Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+* [Construyendo servicios REST con Spring](https://spring.io/guides/tutorials/rest/)
+* [Accediendo a datos con MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+* [Accediendo a datos con JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Manejo de envío de formularios](https://spring.io/guides/gs/handling-form-submission/)
 
-### Maven Parent overrides
+### Sobrescrituras del padre Maven
 
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
-While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
-To prevent this, the project POM contains empty overrides for these elements.
-If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+Debido al diseño de Maven, los elementos se heredan del POM padre al POM del proyecto.
+Aunque la mayoría de la herencia es adecuada, también se heredan elementos no deseados como `<license>` y `<developers>` del padre.
+Para evitar esto, el POM del proyecto contiene sobrescrituras vacías para estos elementos.
+Si cambias manualmente a un padre diferente y realmente quieres la herencia, necesitas eliminar esas sobrescrituras.
 
